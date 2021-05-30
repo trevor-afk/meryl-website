@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #114e60;
+}
+h1 {
+  font-size: 4rem;
+}
+.main-container {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+}
+.text-bar {
+  letter-spacing: 2px;
+  position: relative;
+  top: 23vh;
+  font-family: 'Orbitron', sans-serif;
+}
+.start-game-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.invisible {
+  display: none;
+}
+.game-buttons {
+  position: relative;
+  top: 25vh;
+}
+.game-button {
+  height: 200px;
+  width: 200px;
+  border: 8px solid black;
+  border-radius: 40px;
+}
+.button-green {
+  background-color: green;
+  float: right;
+}
+.button-red {
+  background-color: red;
+}
+.button-yellow {
+  margin-top: 25px;
+  background-color: yellow;
+  float: right;
+}
+.button-blue {
+  margin-top: 25px;
+  background-color: blue;
+}
